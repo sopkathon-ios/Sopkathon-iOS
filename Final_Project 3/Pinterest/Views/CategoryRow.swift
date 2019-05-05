@@ -12,6 +12,7 @@ class CategoryRow: UITableViewCell {
   
   @IBOutlet weak var collectionView: UICollectionView!
 
+  
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
