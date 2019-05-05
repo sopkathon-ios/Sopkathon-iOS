@@ -11,10 +11,5 @@ import UIKit
 class SecondCell: UICollectionViewCell {
   
   @IBOutlet var imgView: UIImageView!
-  override func awakeFromNib() {
-    super.awakeFromNib()
-    imgView.layer.cornerRadius = 6
-    imgView.layer.masksToBounds = true
-  }
   
 }
