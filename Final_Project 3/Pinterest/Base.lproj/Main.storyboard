@@ -93,6 +93,7 @@
                                     <outlet property="commentLabel" destination="7p9-d4-C0r" id="f3j-b7-Msn"/>
                                     <outlet property="containerView" destination="dYa-Ve-ynZ" id="OXl-AY-7xT"/>
                                     <outlet property="imageView" destination="khC-vr-mlt" id="AB3-3Q-dAV"/>
+                                    <outlet property="peopleLabel" destination="Am2-ZS-p9e" id="aGd-D2-IGd"/>
                                 </connections>
                             </collectionViewCell>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="SecondCell" reuseIdentifier="SecondCell" id="XJm-w4-0SI" customClass="SecondCell" customModule="Pinterest" customModuleProvider="target">
@@ -106,11 +107,21 @@
                                             <rect key="frame" x="0.0" y="0.0" width="182" height="200"/>
                                             <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arp-Ec-aeJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="182" height="200"/>
+                                            <connections>
+                                                <action selector="tabAddButton:" destination="Zyh-ad-FlB" eventType="touchUpInside" id="3B3-2w-gP4"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                 </view>
                                 <constraints>
+                                    <constraint firstItem="arp-Ec-aeJ" firstAttribute="top" secondItem="XJm-w4-0SI" secondAttribute="top" id="1Dz-IF-h92"/>
                                     <constraint firstAttribute="bottom" secondItem="Xrt-16-fbz" secondAttribute="bottom" id="AaE-uX-1FX"/>
+                                    <constraint firstItem="arp-Ec-aeJ" firstAttribute="leading" secondItem="XJm-w4-0SI" secondAttribute="leading" id="CGI-Nb-53t"/>
                                     <constraint firstAttribute="trailing" secondItem="Xrt-16-fbz" secondAttribute="trailing" id="Dp0-jU-PDu"/>
+                                    <constraint firstAttribute="bottom" secondItem="arp-Ec-aeJ" secondAttribute="bottom" id="lcP-Ai-EfV"/>
+                                    <constraint firstAttribute="trailing" secondItem="arp-Ec-aeJ" secondAttribute="trailing" id="rp9-W5-5Jm"/>
                                     <constraint firstItem="Xrt-16-fbz" firstAttribute="top" secondItem="XJm-w4-0SI" secondAttribute="top" id="yUw-oS-WfX"/>
                                     <constraint firstItem="Xrt-16-fbz" firstAttribute="leading" secondItem="XJm-w4-0SI" secondAttribute="leading" id="yer-Rf-Lsz"/>
                                 </constraints>

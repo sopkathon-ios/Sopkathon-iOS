@@ -34,6 +34,7 @@ import AVFoundation
 class PhotoStreamViewController: UICollectionViewController {
   
   var photos = Photo.allPhotos()
+  var imagePicker = UIImagePickerController()
   
   override var preferredStatusBarStyle : UIStatusBarStyle {
     return UIStatusBarStyle.lightContent
@@ -53,7 +54,30 @@ class PhotoStreamViewController: UICollectionViewController {
     }
   }
   
-}
+    @IBAction func tabAddButton(_ sender: Any) {
+            
+            if UIImagePickerController.isSourceTypeAvailable(.savedPhotosAlbum){
+                print("Button capture")
+                
+                //imagePicker.delegate = self
+                imagePicker.sourceType = .savedPhotosAlbum
+                imagePicker.allowsEditing = false
+                
+                present(imagePicker, animated: true, completion: nil)
+            }
+            
+            
+        }
+        
+        func imagePickerController(picker: UIImagePickerController!, didFinishPickingImage image: UIImage!, editingInfo: NSDictionary!){
+            self.dismiss(animated: true, completion: { () -> Void in
+                
+            })
+            
+            //imageView.image = image
+        }
+    }
+
 
 extension PhotoStreamViewController {
   
@@ -63,7 +87,7 @@ extension PhotoStreamViewController {
   
   override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     
-    var reuseIdentifier = (indexPath.item == 1 ) ? "SecondCell" : "AnnotatedPhotoCell"
+    let reuseIdentifier = (indexPath.item == 1 ) ? "SecondCell" : "AnnotatedPhotoCell"
     
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
     if let annotateCell = cell as? AnnotatedPhotoCell {
