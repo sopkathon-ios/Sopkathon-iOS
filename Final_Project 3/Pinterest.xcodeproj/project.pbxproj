@@ -21,6 +21,13 @@
 		8430A1E5227F0C8E000EDC83 /* MypageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A1E4227F0C8E000EDC83 /* MypageVC.swift */; };
 		8430A1E7227F0C99000EDC83 /* APIManager in Resources */ = {isa = PBXBuildFile; fileRef = 8430A1E6227F0C99000EDC83 /* APIManager */; };
 		DC1115FD227EFB51006AF6D3 /* SecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1115FC227EFB51006AF6D3 /* SecondCell.swift */; };
+		DCD99356227F0D9500814B78 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD99355227F0D9500814B78 /* CategoryRow.swift */; };
+		DCD99358227F0E7600814B78 /* MypageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD99357227F0E7600814B78 /* MypageCollectionViewCell.swift */; };
+		DCD9935A227F10FB00814B78 /* MypageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD99359227F10FB00814B78 /* MypageVC.swift */; };
+		DCD99360227F110A00814B78 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9935C227F110A00814B78 /* Requestable.swift */; };
+		DCD99361227F110A00814B78 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9935D227F110A00814B78 /* APIManager.swift */; };
+		DCD99362227F110A00814B78 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9935E227F110A00814B78 /* NetworkResult.swift */; };
+		DCD99363227F110A00814B78 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9935F227F110A00814B78 /* Status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +49,13 @@
 		8430A1E6227F0C99000EDC83 /* APIManager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = APIManager; sourceTree = "<group>"; };
 		DC1115FC227EFB51006AF6D3 /* SecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCell.swift; sourceTree = "<group>"; };
 		DCD7BEEBAE2F82E13B0F520C /* Pods_Pinterest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pinterest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD99355227F0D9500814B78 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		DCD99357227F0E7600814B78 /* MypageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageCollectionViewCell.swift; sourceTree = "<group>"; };
+		DCD99359227F10FB00814B78 /* MypageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MypageVC.swift; sourceTree = "<group>"; };
+		DCD9935C227F110A00814B78 /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		DCD9935D227F110A00814B78 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		DCD9935E227F110A00814B78 /* NetworkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		DCD9935F227F110A00814B78 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +82,11 @@
 		77E6C75C1F2E38270015ED2A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				8430A1E4227F0C8E000EDC83 /* MypageVC.swift */,
+=======
+				DCD99359227F10FB00814B78 /* MypageVC.swift */,
+>>>>>>> 54bd93e25bf62a65b0565ab79554cb1a26b935b5
 				77E6C75D1F2E38270015ED2A /* PhotoStreamViewController.swift */,
 			);
 			path = "View Controllers";
@@ -87,6 +105,8 @@
 			children = (
 				77E6C7611F2E38270015ED2A /* AnnotatedPhotoCell.swift */,
 				DC1115FC227EFB51006AF6D3 /* SecondCell.swift */,
+				DCD99355227F0D9500814B78 /* CategoryRow.swift */,
+				DCD99357227F0E7600814B78 /* MypageCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,7 +152,11 @@
 		7B0AC7B81AAEF90000885D4A /* Pinterest */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				8430A1E6227F0C99000EDC83 /* APIManager */,
+=======
+				DCD9935B227F110A00814B78 /* APIManager */,
+>>>>>>> 54bd93e25bf62a65b0565ab79554cb1a26b935b5
 				77E6C75B1F2E38270015ED2A /* AppDelegate.swift */,
 				77E6C7631F2E38270015ED2A /* Assets */,
 				77E6C75E1F2E38270015ED2A /* Layouts */,
@@ -160,6 +184,17 @@
 				7B0AC7BF1AAEF90000885D4A /* Main.storyboard */,
 			);
 			name = "Storyboards & Xibs";
+			sourceTree = "<group>";
+		};
+		DCD9935B227F110A00814B78 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9935C227F110A00814B78 /* Requestable.swift */,
+				DCD9935D227F110A00814B78 /* APIManager.swift */,
+				DCD9935E227F110A00814B78 /* NetworkResult.swift */,
+				DCD9935F227F110A00814B78 /* Status.swift */,
+			);
+			path = APIManager;
 			sourceTree = "<group>";
 		};
 		EBF7468B4337D5A09BF0BCC5 /* Frameworks */ = {
@@ -203,7 +238,11 @@
 				TargetAttributes = {
 					7B0AC7B51AAEF90000885D4A = {
 						CreatedOnToolsVersion = 6.2;
+<<<<<<< HEAD
 						DevelopmentTeam = EQ7Z68Z2F2;
+=======
+						DevelopmentTeam = 356TMGTX7W;
+>>>>>>> 54bd93e25bf62a65b0565ab79554cb1a26b935b5
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -304,8 +343,15 @@
 				DC1115FD227EFB51006AF6D3 /* SecondCell.swift in Sources */,
 				8430A1E5227F0C8E000EDC83 /* MypageVC.swift in Sources */,
 				77E6C76D1F2E385E0015ED2A /* PinterestLayout.swift in Sources */,
+				DCD99362227F110A00814B78 /* NetworkResult.swift in Sources */,
+				DCD9935A227F10FB00814B78 /* MypageVC.swift in Sources */,
+				DCD99361227F110A00814B78 /* APIManager.swift in Sources */,
+				DCD99358227F0E7600814B78 /* MypageCollectionViewCell.swift in Sources */,
+				DCD99360227F110A00814B78 /* Requestable.swift in Sources */,
 				77E6C76C1F2E384A0015ED2A /* AppDelegate.swift in Sources */,
+				DCD99363227F110A00814B78 /* Status.swift in Sources */,
 				77E6C76F1F2E385E0015ED2A /* PhotoStreamViewController.swift in Sources */,
+				DCD99356227F0D9500814B78 /* CategoryRow.swift in Sources */,
 				77E6C7701F2E385E0015ED2A /* AnnotatedPhotoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,11 +481,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = EQ7Z68Z2F2;
 				INFOPLIST_FILE = Pinterest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.choyi.pinterestlayout;
+=======
+				DEVELOPMENT_TEAM = 356TMGTX7W;
+				INFOPLIST_FILE = Pinterest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sohyeon.pinterestlayout;
+>>>>>>> 54bd93e25bf62a65b0565ab79554cb1a26b935b5
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -452,11 +506,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+<<<<<<< HEAD
 				DEVELOPMENT_TEAM = EQ7Z68Z2F2;
 				INFOPLIST_FILE = Pinterest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.choyi.pinterestlayout;
+=======
+				DEVELOPMENT_TEAM = 356TMGTX7W;
+				INFOPLIST_FILE = Pinterest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sohyeon.pinterestlayout;
+>>>>>>> 54bd93e25bf62a65b0565ab79554cb1a26b935b5
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
